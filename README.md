@@ -1,6 +1,6 @@
 ## Access Here
 
-https://63048f3c543bfc4e3c01494a--peppy-paprenjak-7f09a9.netlify.app/
+https://peppy-paprenjak-7f09a9.netlify.app/
 
 
 ## Available Scripts
