@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Grid } from '@mui/material';
+import { Box, Container, Grid } from '@mui/material';
 import Elements from '../../Elements';
 import Fragments from '../../Fragments';
 import styles from './about.module.css';
@@ -22,7 +22,9 @@ export default function About() {
     <div className={styles.root}>
       <Elements.Header />
       <h1>This Is Homepage</h1>
-      <Fragments.About />
+      <Box sx={{ mt: 3 }}>
+        <Fragments.About />
+      </Box>
 
       <Container maxWidth="xl" sx={{ py: 8 }}>
         <Grid container spacing={4}>
