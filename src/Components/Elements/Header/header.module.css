@@ -1,0 +1,27 @@
+.root{
+    background: linear-gradient(rgb(68, 133, 157), rgb(56,178, 175));
+    padding: 16px 0;
+}
+
+.h1{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+
+.menu > *{
+    color:#fff !important;
+    text-decoration: none;
+    padding: 0 8px;
+    border-left: 1px solid #fff;
+}
+
+.menu > *:first-child{
+    border-left: none;
+}

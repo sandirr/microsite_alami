@@ -1,0 +1,22 @@
+.root{
+    margin-top: 24px;
+}
+
+.root h2{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.specialContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.specialContent{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
