@@ -13,8 +13,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/">
-          <Route index element={<Pages.About />} />
-          <Route path={ROUTES.home()} element={<Pages.About />} />
+          <Route index element={<Pages.Home />} />
+          <Route path={ROUTES.home()} element={<Pages.Home />} />
           <Route path={ROUTES.about()} element={<Fragments.About />} />
           <Route path={ROUTES.contact()} element={<Pages.Contact />} />
           <Route path="*" element={<>Page Not Found</>} />

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { Box, Container, Grid } from '@mui/material';
 import Elements from '../../Elements';
 import Fragments from '../../Fragments';
-import styles from './about.module.css';
+import styles from './home.module.css';
 import { localData } from '../../../Configs/helpers';
 
-export default function About() {
+export default function Home() {
   const [field, setField] = useState('');
 
   const handleChangeField = ({ target }) => {
